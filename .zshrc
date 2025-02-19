@@ -93,6 +93,9 @@ source $ZSH/oh-my-zsh.sh
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
+export NVM_DIR="$HOME/.nvm"
+. "$(brew --prefix nvm)/nvm.sh"
+
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
@@ -122,3 +125,6 @@ alias kill4004="kill -9 $(lsof -t -i:4004)"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# load secrets
+source ~/.zshenv
