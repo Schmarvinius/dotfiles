@@ -1,0 +1,5 @@
+require 'core.options'
+require 'config.lazy'
+require 'config.keymap'
+require 'config.autocmd'
+require('lazy').setup 'plugins'
